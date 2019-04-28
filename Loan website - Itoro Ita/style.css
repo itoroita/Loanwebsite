@@ -1,0 +1,207 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*padding: 25px 50px 75px 100px;
+top padding is 25px
+right padding is 50px
+bottom padding is 75px
+left padding is 100px*/
+
+header {
+  overflow: hidden;
+  background-color: #f4f3f3;
+  padding-left: 15px;
+}
+
+header a {
+  float: left;
+  background: #ffbc35;
+  color:#013678; 
+  text-align: center;
+  font-family: "Comic sans";
+  font-weight: 4px;
+  padding: 10px 15px 15px 15px;
+  text-decoration: none;
+  font-size: 30px;
+}
+header p{
+
+  float:right;
+  padding-right: 50px;
+  color:#ffffff;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #013678;
+  padding-left: 15px;
+  height: 50px;
+}
+.navbar h2{
+  float:left;
+  padding: 0px 0px 0px 15px;
+  color:#ffffff;
+  box-sizing: 
+  background-color: #ffbc35;
+  border: 1px solid green;
+}
+.navbar a {
+  float: right;
+  color: white;
+  text-align: center;
+  padding-right: 50px;
+  padding-top: 15px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  color: #ffbc35;
+}
+.navbar a:active {
+  color:#ffbc35;
+}
+.main{
+background-color: #f4f3f3;
+}
+.bg {
+  /* The image used */
+  background-image: url("img/5.jpg");
+  height: 100vh; 
+  margin: 0 auto;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 200px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+ .button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #f4f3f3;
+  background-color: #013678;
+  border: none;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+}
+.button:hover {
+  background-color: #feba3d
+}
+.button:active {
+  background-color: #feba3d;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+  background-color: #f4f3f3;
+  padding-top: 30px;
+  margin-bottom:10px;
+  margin-top:20px;
+}
+.container #main-col {
+  float: left;
+  margin: 0 1.5%;
+  width: 50%;
+  color:#000000;
+  font-family: sans-serif;
+  line-height: 1.5em;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+.page-title h1{
+  padding-left:30px;
+  color:#013678;
+  font-family: sans-serif;
+  line-height: 1.5em;
+}
+#sidebar .dark {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+}
+/* Boxes */
+#boxes{
+  margin-top:20px;
+  padding-top: 30px;
+}
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+#boxes .box img{
+  width:90px;
+}
+#boxes .box h3{
+  color: #013678;
+  line-height: 1.5em;
+  /*text-align: justify;*/
+}
+#boxes .box p{
+  color: #000000;
+  font-family: sans-serif;
+  text-align: justify;
+  line-height: 1.5em;
+}
+.dark{
+  padding:15px;
+  /*background:#2C4F00;*/
+  color:#000000;
+  margin-top:10px;
+  margin-bottom:10px;
+  font-family: sans-serif;
+  line-height: 1.5em;
+}
+
+#sidebar .dark h3{
+  color: #013678;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   height: 50px;
+   width: 100%;
+   background-color: #013678;
+   color: white;
+   text-align: center;
+}
+.footer-logo{
+    transition-duration: 500ms;
+    outline: 0 solid transparent;
+    height:15px;
+    color: #000000;
+    font-weight: 700;
+    font-size: 16px;
+    /*float: left;*/
+    background: #013678;
+    color: #013678;
+    text-align: center;
+    font-family: "Comic sans";
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+  }
+.copywrite-text a {
+    color: #f3f4f6;
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 30px;
+    float: right;
+  }
